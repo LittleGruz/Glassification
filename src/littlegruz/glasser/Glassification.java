@@ -9,10 +9,10 @@ public class Glassification extends JavaPlugin{
 
    public void onEnable(){
       getServer().getPluginManager().registerEvents(new GlassBlockListener(this), this);
-      log.info("Glassification v1.2 enabled");
+      log.info("Glassification v1.2.1 enabled");
    }
 
    public void onDisable(){
-      log.info("Glassification v1.2 disabled");
+      log.info("Glassification v1.2.1 disabled");
    }
 }
